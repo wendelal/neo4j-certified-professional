@@ -1,20 +1,24 @@
 # Minha Certificação Neo4j Certified Professional
 
-Este repositório é o Desafio de Projeto que fecha o Bootcamp [Neo4j Certified Professional](https://web.dio.me/track/neo4j-certified-professional). Nele, você compartilha a sua certificação **Neo4j Certified Professional**, emitida pela GraphAcademy. Ela é a que o Bootcamp prepara, mas qualquer certificação Neo4j da GraphAcademy vale como entrega. É o último passo para sair do Bootcamp com dois certificados, o da DIO e o da Neo4j.
+Repositório do Desafio de Projeto que fecha o Bootcamp [Neo4j Certified Professional](https://web.dio.me/track/neo4j-certified-professional) da DIO, com a minha certificação **Neo4j Certified Professional**, emitida pela GraphAcademy.
 
 ## Minha Certificação
 
-- **Nome:** Seu Nome
-- **Certificado:** https://graphacademy.neo4j.com/c/seu-codigo
+- **Nome:** Wendel Alves Sousa
+- **Certificado:** _em breve — link será adicionado após a aprovação na prova_
 
-## Como Foi a Jornada (opcional)
+## Como Foi a Jornada
 
-Em poucas linhas, conte como você se preparou, qual tema da prova deu mais trabalho e o que vem a seguir.
+Comecei pelo Bootcamp da DIO e coloquei a teoria em prática construindo um **sistema de recomendação de músicas com grafos** no Neo4j AuraDB: usuários, músicas, artistas e gêneros como nós, interações (escutou, curtiu, segue) como relacionamentos com propriedades, e consultas Cypher de filtragem colaborativa, por gênero, social e híbrida com pontuação.
 
-## Como Entregar
+Na preparação para a prova, os temas que mais deram trabalho foram os recursos mais novos do Cypher 25: **padrões quantificados** (`{2}`, `-+`, `SHORTEST 1`), **regras de unicidade de relacionamento** (trail × `REPEATABLE ELEMENTS`) e **subqueries com escopo de variável** (`CALL (x) { }` e `IN TRANSACTIONS`).
 
-1. Faça a prova na [página da certificação](https://graphacademy.neo4j.com/certifications/neo4j-certification). Ela é gratuita e, se você não passar, pode tentar de novo depois de 24 horas. Se preferir, escolha outra entre as [certificações da GraphAcademy](https://graphacademy.neo4j.com/certifications);
-2. Com a aprovação, o certificado sai na hora. Abra a página dele e copie o endereço, que começa com `https://graphacademy.neo4j.com/c/`;
-3. Faça um fork deste repositório, ou crie um repositório público na sua conta e copie este README;
-4. Na seção **Minha Certificação**, troque `Seu Nome` pelo seu nome e o link de exemplo pelo seu;
-5. Envie o link do seu repositório na plataforma da DIO.
+**Próximos passos:** aplicar grafos no matching de cargas e rotas de uma plataforma de fretes que estou desenvolvendo e, depois, encarar a certificação **Neo4j & Generative AI** (RAG, busca vetorial e GraphRAG).
+
+## Tecnologias
+
+![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)
+![Cypher](https://img.shields.io/badge/Cypher-0A6EBD?style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
